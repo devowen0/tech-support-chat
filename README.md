@@ -96,7 +96,7 @@ Change it to the local model you pulled, if necessary.
 - Add settings page for choosing model & temperature
 
 ## Security Note
-- Currently, this app does not store chat data. Future versions will support optional AES-256-GCM encryption for local chat history files.
+- Currently, this app does not store chat data. Optionally, you could make a version that uses AES-256-GCM encryption for local chat history files.
 - This app sends data to Deepseek servers to retrieve responses. Ollama supports models that run entirely locally, which will not expose any data to servers, such as mistral:7b, and this can be changed in the script by editing the line MODEL = "deepseek-v3.1:671b-cloud".
 
 
